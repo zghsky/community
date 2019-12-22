@@ -28,6 +28,9 @@ dependencies {
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     implementation 'com.squareup.okhttp3:okhttp:3.14.1'
     implementation 'com.alibaba:fastjson:1.2.62'
+    implementation 'com.h2database:h2:1.4.200'
+    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.1'
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
