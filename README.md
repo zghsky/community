@@ -8,3 +8,6 @@
 
 #工具
 [GIT](https://git-scm.com/downloads)  
+```bash
+gradle flywayMigrate -i
+```
